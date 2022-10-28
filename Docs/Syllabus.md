@@ -21,7 +21,7 @@
 - Who were the cypherpunks
 - What problems do decentralized systems solve
 - Blockchains are for censorship resistance
-###### Homework: Put 5 things in discord that use cryptography, mess around with online hashing[https://emn178.github.io/online-tools/sha256.html], watch overview of how diffie-hellman works[https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile]
+###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing]"https://emn178.github.io/online-tools/sha256.html", watch overview of how [diffie-hellman works]"https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile"
 
 # Week3: Blockchains and Nodes
 - Why do we care how blockchains work
