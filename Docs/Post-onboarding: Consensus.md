@@ -47,3 +47,6 @@
 # MEV
 - [Flashboys](https://arxiv.org/abs/1904.05234)
 - [Flashbots resource vault](https://github.com/flashbots/mev-research/blob/main/resources.md)
+
+# Cryptoeconomics
+- https://github.com/jpantunes/awesome-cryptoeconomics
