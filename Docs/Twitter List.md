@@ -10,7 +10,7 @@
 - @Scoper582561521
 - @rMalakaib 
 
-# Developers/Consensus:
+# Consensus/Cryptography/Protocol Research:
 - [@colludingnode](https://twitter.com/colludingnode)
 - [@dystopiabreaker](https://twitter.com/dystopiabreaker)
 - [@apolynya](https://twitter.com/apolynya)
