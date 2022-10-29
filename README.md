@@ -1,5 +1,6 @@
 # OBG-Onboarding
 Onboarding program for new Oregon Blockchain Group members
+
 Thursdays 6-7pm Lillis 275!
 
 - [twitter](https://twitter.com/oregonblock)
