@@ -41,6 +41,7 @@
 - [@nickwh8te](https://twitter.com/nickwh8te)
 - [@sreeramkannan](https://twitter.com/sreeramkannan)
 - [@cronokirby](https://twitter.com/cronokirby) 
+- [@JoshStark](https://twitter.com/0xstark)
 
 # Bloggers/Traders:
 - @Cryptohayes
