@@ -1,14 +1,15 @@
 # OBG members:
 - [@sbmckeon](https://twitter.com/sbmckeon)
-- @zackrosenblatt2
-- @mcgeeskiETH
-- @aaronrudder1
-- @RonanBroadhead
-- @joe314158
-- @a1ttech
-- @RollingRoyce
-- @Scoper582561521
-- @rMalakaib 
+- [@zackrosenblatt2 (alumni)](https://twitter.com/zackrosenblatt2)
+- [@mcgeeskiETH (creative director)](https://twitter.com/mcgeeskiETH)
+- [@aaronrudder1 (president)](https://twitter.com/aaronrudder1)
+- [@RonanBroadhead (director of fund)](https://twitter.com/RonanBroadhead)
+- [@joe314158 (director of education)](https://twitter.com/joe314158)
+- [@a1ttech (alumni)](https://twitter.com/a1ttech)
+- [@RollingRoyce (VP of fund)](https://twitter.com/Rolling_Royce_)
+- [@Scoper582561521 (director of technology)](https://twitter.com/Scoper582561521)
+- [@rMalakaib (director of communication)](https://twitter.com/rMalakaib)
+- [@Jordancombs.eth (director of finance)](https://twitter.com/jordancombs_eth)
 
 # Consensus/Cryptography/Protocol Research:
 - [@colludingnode](https://twitter.com/colludingnode)
