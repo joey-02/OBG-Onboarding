@@ -1,5 +1,5 @@
 # OBG members:
-- [@sbmckeon](https://twitter.com/sbmckeon)
+- [@sbmckeon](https://twitter.com/sbmckeon) (advisor)
 - [@zackrosenblatt2](https://twitter.com/zackrosenblatt2) (alumni)
 - [@mcgeeskiETH](https://twitter.com/mcgeeskiETH) (creative director)
 - [@aaronrudder1](https://twitter.com/aaronrudder1) (president)
