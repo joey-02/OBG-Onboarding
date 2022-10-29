@@ -30,7 +30,7 @@
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
 - Consensus protocol (research, purpose, what Satoshi's breakthrough was, importance of cryptoeconomics)
 - State Machine (consensus only orders transactions, changes to state defined by VM, what is a VM?)
-###### Homework: Run an full node
+###### Homework: Run a full node
 
 # Week4: Blockchain Applications
 ###### Homework:
