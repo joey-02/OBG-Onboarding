@@ -21,6 +21,7 @@
 - Who were the cypherpunks
 - What problems do decentralized systems solve
 - Blockchains are for censorship resistance
+- This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
 # Week3: Blockchains and Nodes
