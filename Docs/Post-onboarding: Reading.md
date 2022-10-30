@@ -1,5 +1,6 @@
 # Non-technical, Good Reads
 - [Atoms, Institutions, Blockchains](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0)
+- [Autonomous Worlds](https://0xparc.org/blog/autonomous-worlds)
 - [Interoperability and Market Segmentation](https://medium.com/collab-currency/interoperability-and-market-segmentation-9cd098382414)
 
 # Good Blogs
