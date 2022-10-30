@@ -9,7 +9,7 @@
 - [Polynomial commitment schemes](https://scroll.io/blog/kzg)
 
 
-## Verifiable computation for probalistic proofs
+## Probalistic Proofs for Verifiable Computation
 - [Number thoery](https://explained-from-first-principles.com/number-theory/)
 - [PCP theorem](https://courses.cs.washington.edu/courses/cse533/05au/pcp-history.pdf)
 - [Zero knowledge canon](https://a16zcrypto.com/zero-knowledge-canon/)
