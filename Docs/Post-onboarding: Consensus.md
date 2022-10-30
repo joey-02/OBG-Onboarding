@@ -7,10 +7,10 @@
 
 # Awesome papers about blockchain consensus
 - [Rethinking largescale consensus](https://eprint.iacr.org/2018/302.pdf)
+- [Byzantine Generals in the permissionless setting](https://arxiv.org/abs/2101.07095)
+- [CAP theorum](https://arxiv.org/abs/2006.10698)
 - [Hybrid BFT/Chain-based consensus](https://arxiv.org/abs/2009.04987)
 - [Casper BFT finality gadget](https://arxiv.org/abs/1710.09437)
-- [CAP theorum](https://arxiv.org/abs/2006.10698)
-- [Byzantine Generals in the permissionless setting](https://arxiv.org/abs/2101.07095)
 
 # Awesome BFT consensus papers
 - [Paper formalizing consensus](https://lamport.azurewebsites.net/pubs/byz.pdf)
