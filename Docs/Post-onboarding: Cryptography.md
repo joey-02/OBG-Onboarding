@@ -14,7 +14,7 @@
 - [PCP theorem](https://courses.cs.washington.edu/courses/cse533/05au/pcp-history.pdf)
 - [Zero knowledge canon](https://a16zcrypto.com/zero-knowledge-canon/)
 - [Survey of proofs, arguments, and zero knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
-- [Foundations of probalistic proofs by Alessandro Chiesa](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
+- [Foundations of probalistic proofs by Alessandro Chiesa](https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html) [Youtube](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
 - [Everything STARKs!](https://twitter.com/EliBenSasson/status/1578380154476208131?s=20&t=IbMbwSUkuEShS8rXzkSTOA)
 - [Awesome-ZK!](https://github.com/ventali/awesome-zk)
 - [ZK Machine learning](https://github.com/worldcoin/awesome-zkml)
