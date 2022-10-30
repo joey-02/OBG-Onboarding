@@ -1,6 +1,7 @@
 # Resources
 
 ## Introduction
+- [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf) 
 - [New directions in cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)
 - [Cypherpunks mailing list archive](https://mailing-list-archive.cryptoanarchy.wiki/)
 - [Dan Boneh Online Cryptography Course](https://crypto.stanford.edu/~dabo/courses/OnlineCrypto/) [Coursera Link](https://www.coursera.org/learn/crypto)
