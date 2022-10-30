@@ -8,6 +8,7 @@
 - [Vitalik](https://vitalik.ca/)
 - [Ethereum](https://blog.ethereum.org/)
 - [0xParc](https://0xparc.org/blog)
+- [Rust in Blockchain](https://rustinblockchain.org/)
 - [Explained From First Principles](https://explained-from-first-principles.com/)
 - [Ethereum Foundation Robust Incentives Group](https://ethereum.github.io/rig/)
 - [Polynya](https://polynya.mirror.xyz/)
