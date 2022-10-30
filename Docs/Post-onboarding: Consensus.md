@@ -34,11 +34,10 @@
 
 # Modular consensus
 - [Data availability sampling](https://arxiv.org/abs/1809.09044)
-- [Verifiable computation via probalistic proofs (zk proofs)](https://arxiv.org/abs/1610.03798)
 - [Pinnochio (zk proofs)](https://eprint.iacr.org/2013/279.pdf)
 - [TinyRam (zk proofs)](https://eprint.iacr.org/2013/507.pdf)
 - [Cairo (zk proofs)](https://eprint.iacr.org/2021/1063.pdf)
-- [RiscZero (zk proof standard RISC)](https://www.risczero.com/blog/announce)
+- [RiscZero (zk proof standard ISA)](https://www.risczero.com/blog/announce)
 - [Accountable safety for rollups](https://arxiv.org/abs/2210.15017)
 - [Optimistic rollups](https://arxiv.org/pdf/1904.06441.pdf)
 - [Meta-consensus](https://arxiv.org/abs/2210.11571)
