@@ -2,7 +2,7 @@
 
 ## Introduction
 - [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf) 
-- [New directions in cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)
+- [New Directions in Cryptography by Diffie & Hellman](https://ee.stanford.edu/~hellman/publications/24.pdf)
 - [Cypherpunks mailing list archive](https://mailing-list-archive.cryptoanarchy.wiki/)
 - [Dan Boneh Online Cryptography Course](https://crypto.stanford.edu/~dabo/courses/OnlineCrypto/) [Coursera Link](https://www.coursera.org/learn/crypto)
 - [Elliptic curve cryptography](https://github.com/bellaj/Blockchain/blob/6bffb47afae6a2a70903a26d215484cf8ff03859/ecdsa_bitcoin.pdf)
