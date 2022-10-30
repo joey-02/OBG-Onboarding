@@ -1,4 +1,5 @@
 # Non-technical, Good Reads
+- [The Cathedral and the Bazaar (Why FOSS!)](https://monoskop.org/images/e/e0/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf)
 - [Atoms, Institutions, Blockchains](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0)
 - [Autonomous Worlds](https://0xparc.org/blog/autonomous-worlds)
 - [Interoperability and Market Segmentation](https://medium.com/collab-currency/interoperability-and-market-segmentation-9cd098382414)
