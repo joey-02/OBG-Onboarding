@@ -6,6 +6,10 @@
 # Good Blogs
 - [Vitalik](https://vitalik.ca/)
 - [Ethereum](https://blog.ethereum.org/)
+- [0xParc](https://0xparc.org/blog)
+- [Explained From First Principles](https://explained-from-first-principles.com/)
+- [Ethereum Foundation Robust Incentives Group](https://ethereum.github.io/rig/)
+- [Polynya](https://polynya.mirror.xyz/)
 - [Arthur Hayes](https://cryptohayes.medium.com/)
 
 # Good Forums
