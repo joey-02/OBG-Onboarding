@@ -14,6 +14,7 @@
 - [Polynya](https://polynya.mirror.xyz/)
 - [Arthur Hayes](https://cryptohayes.medium.com/)
 - [Paradigm](https://www.paradigm.xyz/writing)
+- [Cronokirby](https://cronokirby.com/posts)
 
 # Good Forums
 - [OG bitcoin forum](https://bitcointalk.org/)
