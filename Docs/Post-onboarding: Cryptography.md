@@ -24,7 +24,7 @@ Proof systems are a powerful primitive used for scalability and privacy. On the 
 - [ZK Machine learning](https://github.com/worldcoin/awesome-zkml)
 
 ## MPC
-Multi party computation is a way to distribute cryptographic processes across multiple individuals. This lets you distribute authority across multiple parties and compute results while allowing parties to withold data.
+Multi party computation is a way to distribute cryptographic processes across multiple individuals. This lets you distribute authority across multiple parties and compute results while allowing parties to withold data. [Lit Protocol](https://litprotocol.com/) uses MPC for access control!
 - [Awesome MPC](https://github.com/rdragos/awesome-mpc)
 - [Distributed Key Generation](https://cronokirby.com/posts/2022/10/dkgs-in-groups/)
 
