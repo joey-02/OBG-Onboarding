@@ -48,4 +48,4 @@
 - Improvement proposals, dev work, and how to upgrade
 - Chain ID and forks
 - Ethereum classic, Bitcoin cash, segwit, etc
-###### Homework: [Social contract](https://medium.com/s/story/bitcoins-social-contract-1f8b05ee24a9#:~:text=Social%20contract%20theory%20starts%20with,sovereign%20government%2C%20to%20protect%20them) + one deliverable relating a non-crypto topic to an idea we covered in class!
+###### Homework: One deliverable relating a non-crypto topic to an idea we covered in class!
