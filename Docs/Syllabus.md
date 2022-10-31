@@ -33,7 +33,7 @@
 - State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
 ###### Homework: Run a full node & generate private keys! 
 ###### [Bitcoin](https://bitcoin.org/en/download)
-###### [Ethereum Execution Client](https://geth.ethereum.org/downloads/) [Consensus Client](https://docs.prylabs.network/docs/install/install-with-script)
+###### [Ethereum Execution Client](https://geth.ethereum.org/downloads/) +  [Consensus Client](https://docs.prylabs.network/docs/install/install-with-script)
 
 # Week4: How to Use a Blockchain: Blockchain Applications
 - Revisiting virtual machines
