@@ -49,5 +49,6 @@
 - Upgrades, rollbacks, and when we want to change the protocol
 - Improvement proposals, dev work, and how to upgrade
 - Chain ID and forks
+- Replay attacks!
 - Ethereum classic, Bitcoin cash, segwit, etc
 ###### Homework: One deliverable relating a non-crypto topic to an idea we covered in class!
