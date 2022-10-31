@@ -13,7 +13,7 @@
 - OBG Onboarding overview
 ###### Homework: Setup twitter, discord, and spend 15 minutes scrolling on twitter
 
-# [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems do Blockchains Solve: Blockchain's Origin Story
+# [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems do Blockchains Solve
 This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 - Why encryption is important
 - Diffie, Hellman, Merkle, and how public cryptography started
@@ -24,7 +24,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Blockchains are for censorship resistance
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
-# Week3: What is a Blockchain: Nodes versus Block Producers
+# Week3: What is a Blockchain
 - Why do we care how blockchains work
 - What is a blockchain
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
@@ -34,7 +34,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 ###### [Bitcoin Instructions](https://bitcoin.org/en/download)
 ###### [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these insteructions use geth and pyrsm, both of which are go implementations of the ethereum spec
 
-# Week4: How to Use a Blockchain: Blockchain Applications
+# Week4: How to Use a Blockchain
 - Revisiting virtual machines
 - How dapps work: frontend vs backend
 - What is onchain and what is offchain?
@@ -44,7 +44,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 ###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap)
 ###### Extra: Use the dapps in the [OBG Fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf) and connect metamask to local node!
 
-# Week5: Social Consensus: Improvement Proposals, Governance, and Contentious Forks
+# Week5: Social Consensus - Improvement Proposals, Governance, and Contentious Forks
 - Upgrades, rollbacks, and when we want to change the protocol
 - Improvement proposals, dev work, and how to upgrade
 - Chain ID and forks
