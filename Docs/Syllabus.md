@@ -14,6 +14,7 @@
 ###### Homework: Setup twitter, discord, and spend 15 minutes scrolling on twitter
 
 # [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems do Blockchains Solve: Blockchain's Origin Story
+This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 - Why encryption is important
 - Diffie, Hellman, Merkle, and how public cryptography started
 - What were the crypto wars
@@ -21,7 +22,6 @@
 - What was the traffic analysis problem
 - What problems do decentralized systems solve
 - Blockchains are for censorship resistance
-- This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
 # Week3: What is a Blockchain: Nodes versus Block Producers
