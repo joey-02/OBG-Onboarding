@@ -3,8 +3,7 @@
 # Objectives
 - Technical onboarding program that teaches blockchain best practices
 - Emphasize the importance of running nodes and being careful of trust assumptions
-- Teach new members web3 tools eg: run all program communication through discord, introduce to telegram/substack/twitter/docs/whitepapers/etherscan etc 
-- IMPORTANT: Make a document w/ all homework & resources and pin in discord
+- Turn new members into crypto natives!
 
 # [Week1](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week1%20-%20OBG%20onboarding.pptx.pdf): Introduction
 - Icebreakers/member introductions
