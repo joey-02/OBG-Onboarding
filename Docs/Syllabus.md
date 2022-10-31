@@ -31,7 +31,9 @@
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
 - Consensus protocol (research, purpose, what Satoshi's breakthrough was, importance of cryptoeconomics)
 - State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
-###### Homework: Run a full node & generate private keys! [Ethereum](https://ethereum.org/en/developers/docs/nodes-and-clients/#:~:text=A%20%22node%22%20is%20any%20instance,Ethereum%20software%2C%20forming%20a%20network.) [Bitcoin](https://bitcoin.org/en/download)
+###### Homework: Run a full node & generate private keys! 
+###### [Bitcoin](https://bitcoin.org/en/download)
+###### [Ethereum Execution Client](https://geth.ethereum.org/downloads/) [Consensus Client](https://docs.prylabs.network/docs/install/install-with-script)
 
 # Week4: How to Use a Blockchain: Blockchain Applications
 - Revisiting virtual machines
