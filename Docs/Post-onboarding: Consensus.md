@@ -13,6 +13,7 @@
 - [Casper BFT finality gadget](https://arxiv.org/abs/1710.09437)
 
 ## Awesome BFT consensus papers
+BFT consensus emerged out of academia in the 1980s and is quorum based. Used in protocols such as Solana, Polygon PoS, Tendermint, and Ethereum's finality gadget! Under network partitions it optimizes for consistency (safety) instead of availability (liveness). 
 - [Paper formalizing consensus](https://lamport.azurewebsites.net/pubs/byz.pdf)
 - [Partial synchrony and 3f + 1 tolerance proof](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)
 - [Impossibility theorems](https://groups.csail.mit.edu/tds/papers/Lynch/FischerLynchMerritt-dc.pdf)
@@ -22,6 +23,7 @@
 
 
 ## Awesome chain-based consensus papers
+Chain-based consensus was invented by Satoshi Nakamoto. Used in protocols such as Bitcoin, Ethereum, and Cardano. Under network partitions it optimizes for availability (liveness) instead of consistency (safety). This means that chain splits and reorgs can happen until synchronicity is reached across nodes. Chain-based consensus allows for dynamic availability which allows for nodes to drop in and out in the middle of consensus rounds! 
 - [Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [The sleepy model of consensus](https://eprint.iacr.org/2016/918.pdf)
 - [Everything is a race and Nakamoto always wins](https://arxiv.org/abs/2005.10484)
