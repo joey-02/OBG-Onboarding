@@ -13,7 +13,7 @@
 - [Casper BFT finality gadget](https://arxiv.org/abs/1710.09437)
 
 ## Awesome BFT consensus papers
-BFT consensus emerged out of academia in the 1980s and is quorum based. Used in protocols such as Solana, Polygon PoS, Tendermint, and Ethereum's finality gadget! Under network partitions it optimizes for consistency (safety) instead of availability (liveness). 
+BFT (quorum-based) consensus emerged out of academia in the 1980s. Used in protocols such as Solana, Polygon PoS, Tendermint, and Ethereum's finality gadget! Under network partitions it optimizes for consistency (safety) instead of availability (liveness). 
 - [Paper formalizing consensus](https://lamport.azurewebsites.net/pubs/byz.pdf)
 - [Partial synchrony and 3f + 1 tolerance proof](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)
 - [Impossibility theorems](https://groups.csail.mit.edu/tds/papers/Lynch/FischerLynchMerritt-dc.pdf)
