@@ -13,6 +13,7 @@
 - [Ethereum Foundation Robust Incentives Group](https://ethereum.github.io/rig/)
 - [Polynya](https://polynya.mirror.xyz/)
 - [Arthur Hayes](https://cryptohayes.medium.com/)
+- [Paradigm](https://www.paradigm.xyz/writing)
 
 # Good Forums
 - [OG bitcoin forum](https://bitcointalk.org/)
