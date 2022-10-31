@@ -49,6 +49,7 @@ Modular consensus is an emerging paradigm that separates settlement, execution, 
 ## MEV
 - [Flashboys](https://arxiv.org/abs/1904.05234)
 - [Flashbots resource vault](https://github.com/flashbots/mev-research/blob/main/resources.md)
+- [Blockspace economics](https://github.com/0xperp/awesome-blockspace)
 
 ## Cryptoeconomics
 - [Awesome-cryptoeconomics](https://github.com/jpantunes/awesome-cryptoeconomics)
