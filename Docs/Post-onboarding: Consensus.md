@@ -1,18 +1,18 @@
-## Post-onboarding resource: Consensus
+# Resources
 
-# Courses
+## Courses
 - [Awesome course for basics](https://decentralizedthoughts.github.io/start-here/)
 - [In depth course](https://ece595uwseattle.github.io/schedule)
 - [Stanford course](https://cs251.stanford.edu/syllabus.html)
 
-# Awesome papers about blockchain consensus
+## Awesome papers about blockchain consensus
 - [Rethinking largescale consensus](https://eprint.iacr.org/2018/302.pdf)
 - [Byzantine Generals in the permissionless setting](https://arxiv.org/abs/2101.07095)
 - [CAP theorum](https://arxiv.org/abs/2006.10698)
 - [Hybrid BFT/Chain-based consensus](https://arxiv.org/abs/2009.04987)
 - [Casper BFT finality gadget](https://arxiv.org/abs/1710.09437)
 
-# Awesome BFT consensus papers
+## Awesome BFT consensus papers
 - [Paper formalizing consensus](https://lamport.azurewebsites.net/pubs/byz.pdf)
 - [Partial synchrony and 3f + 1 tolerance proof](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)
 - [Impossibility theorems](https://groups.csail.mit.edu/tds/papers/Lynch/FischerLynchMerritt-dc.pdf)
@@ -21,7 +21,7 @@
 - [Narwhal & Tusk](https://arxiv.org/abs/2105.11827)
 
 
-# Awesome chain-based consensus papers
+## Awesome chain-based consensus papers
 - [Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [The sleepy model of consensus](https://eprint.iacr.org/2016/918.pdf)
 - [Everything is a race and Nakamoto always wins](https://arxiv.org/abs/2005.10484)
@@ -32,7 +32,7 @@
 - [No more attacks on PoS Ethereum?](https://eprint.iacr.org/2022/1171)
 
 
-# Modular consensus
+## Modular consensus
 - [Data availability sampling](https://arxiv.org/abs/1809.09044)
 - [Pinnochio (zk proofs)](https://eprint.iacr.org/2013/279.pdf)
 - [TinyRam (zk proofs)](https://eprint.iacr.org/2013/507.pdf)
@@ -43,9 +43,9 @@
 - [Meta-consensus](https://arxiv.org/abs/2210.11571)
 
 
-# MEV
+## MEV
 - [Flashboys](https://arxiv.org/abs/1904.05234)
 - [Flashbots resource vault](https://github.com/flashbots/mev-research/blob/main/resources.md)
 
-# Cryptoeconomics
-- https://github.com/jpantunes/awesome-cryptoeconomics
+## Cryptoeconomics
+- [Awesome-cryptoeconomics](https://github.com/jpantunes/awesome-cryptoeconomics)
