@@ -7,7 +7,7 @@ Let you look at on-chain data without running a full node yourself. Very efficie
 - [Cosmos](https://www.mintscan.io/cosmos)
 
 ## Dune
-A data platform for blockchain information! Requires knowledge about SQL queries although there are many dashboards available that other people have built. Alternatively, [here](https://github.com/blockchain-etl/ethereum-etl) is a resource for downloading data yourself, and [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=crypto_ethereum&page=dataset&_ga=2.181269479.-1376780632.1667171394&pli=1&project=flawless-point-361903) is a google cloud dataset. 
+A data platform for blockchain information! Requires knowledge about SQL queries although there are many dashboards available that other people have built. [Here](https://github.com/blockchain-etl/ethereum-etl) is a resource for downloading data yourself, and [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=crypto_ethereum&page=dataset&_ga=2.181269479.-1376780632.1667171394&pli=1&project=flawless-point-361903) is a google cloud dataset. 
 - [Homepage](https://dune.com/browse/dashboards)
 - [Documentation](https://dune.com/docs/)
 - [Example dashboard](https://dune.com/ethpanda/Redacted)
