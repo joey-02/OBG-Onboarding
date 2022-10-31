@@ -10,8 +10,8 @@
 
 
 ## Probalistic Proofs for Verifiable Computation
-- [Number thoery](https://explained-from-first-principles.com/number-theory/)
 - [PCP theorem](https://www.cs.utexas.edu/~danama/XRDS.pdf)
+- [Number thoery](https://explained-from-first-principles.com/number-theory/)
 - [Zero knowledge canon](https://a16zcrypto.com/zero-knowledge-canon/)
 - [Survey of proofs, arguments, and zero knowledge](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 - [Foundations of probalistic proofs by Alessandro Chiesa](https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html) 
