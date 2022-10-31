@@ -35,6 +35,7 @@ Chain-based consensus was invented by Satoshi Nakamoto. Used in protocols such a
 
 
 ## Modular consensus
+Modular consensus is an emerging paradigm that separates settlement, execution, and data availability into different networks. 
 - [Data availability sampling](https://arxiv.org/abs/1809.09044)
 - [Pinnochio (zk proofs)](https://eprint.iacr.org/2013/279.pdf)
 - [TinyRam (zk proofs)](https://eprint.iacr.org/2013/507.pdf)
