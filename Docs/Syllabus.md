@@ -1,8 +1,8 @@
 ## OBG Onboarding
 
 # Objectives
-- More technical onboarding program for OBG members than Mckeon’s lecture series
-- Emphasis on blockchains
+- Technical onboarding program that teaches blockchain best practices
+- Emphasize the importance of running nodes and being careful of trust assumptions
 - Teach new members web3 tools eg: run all program communication through discord, introduce to telegram/substack/twitter/docs/whitepapers/etherscan etc 
 - IMPORTANT: Make a document w/ all homework & resources and pin in discord
 
