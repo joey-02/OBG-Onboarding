@@ -23,7 +23,7 @@ BFT (quorum-based) consensus emerged out of academia in the 1980s. Used in proto
 
 
 ## Awesome chain-based consensus papers
-Chain-based consensus was invented by Satoshi Nakamoto. Used in protocols such as Bitcoin, Ethereum, and Cardano. Under network partitions it optimizes for availability (liveness) instead of consistency (safety). This means that chain splits and reorgs can happen until synchronicity is reached across nodes. Chain-based consensus allows for dynamic availability which allows for nodes to drop in and out in the middle of consensus rounds! 
+Chain-based consensus was invented by Satoshi Nakamoto. Used in protocols such as Bitcoin, Ethereum, and Cardano. Under network partitions it optimizes for availability (liveness) instead of consistency (safety). This means that chain splits and reorgs can happen until synchronicity is reached across nodes. Chain-based consensus allows for dynamic availability which lets nodes drop in and out during consensus rounds! 
 - [Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [The sleepy model of consensus](https://eprint.iacr.org/2016/918.pdf)
 - [Everything is a race and Nakamoto always wins](https://arxiv.org/abs/2005.10484)
