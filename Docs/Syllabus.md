@@ -14,26 +14,38 @@
 - OBG Onboarding overview
 ###### Homework: Setup twitter, discord, and spend 15 minutes scrolling on twitter
 
-# Week2: Bitcoin origins - cypherpunks & cryptography
+# Week2: What Problems do Blockchains Solve: Blockchain's Origin Story
 - Why encryption is important
-- How did public cryptography research start
+- Diffie, Hellman, Merkle, and how public cryptography started
 - What were the crypto wars
 - Who were the cypherpunks
+- What was the traffic analysis problem
 - What problems do decentralized systems solve
 - Blockchains are for censorship resistance
 - This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
-# Week3: Blockchains and Nodes
+# Week3: What is a Blockchain: Nodes versus Block Producers
 - Why do we care how blockchains work
 - What is a blockchain
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
 - Consensus protocol (research, purpose, what Satoshi's breakthrough was, importance of cryptoeconomics)
-- State Machine (consensus only orders transactions, changes to state defined by VM, what is a VM?)
-###### Homework: Run a full node
+- State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
+###### Homework: Run a full node & generate private keys!
 
-# Week4: Blockchain Applications
-###### Homework:
+# Week4: How to Use a Blockchain: Blockchain Applications
+- Revisiting virtual machines
+- How dapps work: frontend vs backend
+- What is onchain and what is offchain?
+- How do your keys interact with dapps: RPC nodes, wallets, endpoints, and order flow
+- FOSS software
+- Censorship resistant dapps
+###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap)
+###### Extra: Use the dapps in the [OBG fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf)!
 
-# Week5: Social Consensus
-###### Homework:
+# Week5: Social Consensus: Improvement Proposals, Governance, and Contentious Forks
+- Upgrades, rollbacks, and when we want to change the protocol
+- Improvement proposals, dev work, and how to upgrade
+- Chain ID and forks
+- Ethereum classic, Bitcoin cash, segwit, etc
+###### Homework: [Social contract](https://medium.com/s/story/bitcoins-social-contract-1f8b05ee24a9#:~:text=Social%20contract%20theory%20starts%20with,sovereign%20government%2C%20to%20protect%20them) + one deliverable relating to a topic we covered in class!
