@@ -1,7 +1,7 @@
 # OBG-Onboarding
-Onboarding program for new Oregon Blockchain Group members
+Onboarding program for new Oregon Blockchain Group members. Click [here](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Docs/Syllabus.md) for the syllabus!
 
-Thursdays 6-7pm Lillis 275!
+Thursdays 6-7pm Lillis 275
 
 - [twitter](https://twitter.com/oregonblock)
 - [website](https://www.oregonblockchain.org/our-mission)
