@@ -33,7 +33,7 @@
 - State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
 ###### Homework: Run a full node & generate private keys! 
 ###### [Bitcoin](https://bitcoin.org/en/download)
-###### [Ethereum Execution Client](https://geth.ethereum.org/downloads/) +  [Consensus Client](https://docs.prylabs.network/docs/install/install-with-script)
+###### [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these insteructions use geth and pyrsm, both of which are go implementations of the ethereum spec
 
 # Week4: How to Use a Blockchain: Blockchain Applications
 - Revisiting virtual machines
