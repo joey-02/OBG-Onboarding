@@ -2,7 +2,7 @@
 ## Free Blockchain Resources
 
 ## Block explorers
-Let you look at on-chain data without running a full node/querying rpc nodes. Very efficient and convenient for verifying transactions! Remember you are trusting that the node that the website is using is on the canonical chain!
+Let you look at on-chain data without running a full node yourself. Very efficient and convenient for verifying transactions! Remember you are trusting that the node that the website is using is on the canonical chain!
 - [Ethereum](https://etherscan.io/accounts)
 - [Cosmos](https://www.mintscan.io/cosmos)
 
