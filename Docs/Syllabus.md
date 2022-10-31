@@ -6,7 +6,7 @@
 - Teach new members web3 tools eg: run all program communication through discord, introduce to telegram/substack/twitter/docs/whitepapers/etherscan etc 
 - IMPORTANT: Make a document w/ all homework & resources and pin in discord
 
-# Week1: Introduction
+# [Week1](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week1%20-%20OBG%20onboarding.pptx.pdf): Introduction
 - Icebreakers/member introductions
 - Why crypto is interesting/what can you learn from it
 - OBG requirements: deliverables, attendance?, conferences/socials
@@ -14,7 +14,7 @@
 - OBG Onboarding overview
 ###### Homework: Setup twitter, discord, and spend 15 minutes scrolling on twitter
 
-# Week2: What Problems do Blockchains Solve: Blockchain's Origin Story
+# [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems do Blockchains Solve: Blockchain's Origin Story
 - Why encryption is important
 - Diffie, Hellman, Merkle, and how public cryptography started
 - What were the crypto wars
