@@ -1,6 +1,7 @@
 # Resources
 
 ## Introduction
+A collection of literature and courses to get familiar with why cryptography is important and how it works.
 - [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf) 
 - [New Directions in Cryptography by Diffie & Hellman](https://ee.stanford.edu/~hellman/publications/24.pdf)
 - [Cypherpunks mailing list archive](https://mailing-list-archive.cryptoanarchy.wiki/)
@@ -10,6 +11,8 @@
 
 
 ## Probalistic Proofs for Verifiable Computation
+Proof systems are a powerful primitive used for scalability and privacy. On the protocol level, blockchains uses them for [verifiable off-chain computation](https://starkware.co/) and [data availability commitments](https://www.eip4844.com/). On the application side, proofs are used for [data privacy](https://personaelabs.org/posts/personae/) and incomplete information in videogames such as Dark Forest's [fog of war](https://dfwiki.net/wiki/Fog_of_war). 
+- [Definitive explanation of ZkSnarks](https://arxiv.org/pdf/1906.07221.pdf)
 - [PCP theorem](https://www.cs.utexas.edu/~danama/XRDS.pdf)
 - [Number thoery](https://explained-from-first-principles.com/number-theory/)
 - [Zero knowledge canon](https://a16zcrypto.com/zero-knowledge-canon/)
@@ -21,6 +24,7 @@
 - [ZK Machine learning](https://github.com/worldcoin/awesome-zkml)
 
 ## MPC
+Multi party computation is a way to distribute cryptographic processes across multiple individuals. This lets you distribute authority across multiple parties and compute results while allowing parties to withold data.
 - [Awesome MPC](https://github.com/rdragos/awesome-mpc)
 - [Distributed Key Generation](https://cronokirby.com/posts/2022/10/dkgs-in-groups/)
 
