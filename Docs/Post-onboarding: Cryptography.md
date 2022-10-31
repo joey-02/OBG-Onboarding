@@ -28,6 +28,8 @@
 ## Post Quantum Cryptography
 - [Overview](http://pqcrypto.org/index.html)
 - [How long until we need PCQ?](https://sam-jaques.appspot.com/quantum_landscape) 
+- [Shor's Algorithm](https://quantum-computing.ibm.com/composer/docs/iqx/guide/shors-algorithm)
+- [Grover's Algorithm](https://quantum-computing.ibm.com/composer/docs/iqx/guide/grovers-algorithm)
 
 ## Research Resources
 - [IACR](https://eprint.iacr.org/)
