@@ -22,6 +22,7 @@
 
 ## MPC
 - [Awesome MPC](https://github.com/rdragos/awesome-mpc)
+- [Distributed Key Generation](https://cronokirby.com/posts/2022/10/dkgs-in-groups/)
 
 ## FHE
 
