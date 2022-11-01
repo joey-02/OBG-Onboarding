@@ -24,6 +24,7 @@ Proof systems are a powerful primitive used for scalability and privacy. On the 
 - [Bulletproofs](https://crypto.stanford.edu/bulletproofs/)
 - [Awesome-ZK!](https://github.com/ventali/awesome-zk)
 - [ZK Machine learning](https://github.com/worldcoin/awesome-zkml)
+- [Ingopedia](https://github.com/ingonyama-zk/ingopedia/blob/main/README.md)
 
 ## MPC
 Multi party computation is a way to distribute cryptographic processes across multiple individuals. This lets you distribute authority across multiple parties and compute results while allowing parties to withold data. MPC is oftentimes used for privacy because it is more flexible than FHE and other schemes, although it is succeptible to collusion risk. Examples include [Penumbra](https://penumbra.zone/). [Lit Protocol](https://litprotocol.com/) uses MPC for access control!
@@ -33,6 +34,7 @@ Multi party computation is a way to distribute cryptographic processes across mu
 - [Awesome TSS](https://github.com/ZenGo-X/awesome-tss)
 - [BLS](https://hackmd.io/@benjaminion/bls12-381)
 - [Interactive BLS tool](https://iancoleman.io/blsttc_ui/)
+
 
 ## FHE
 **TFHE deep dive: ZAMA AI - Ilaria Chilloti**
