@@ -20,3 +20,7 @@
 - [OG bitcoin forum](https://bitcointalk.org/)
 - [Eth research](https://ethresear.ch/)
 - [Eth protocol development](https://ethereum-magicians.org/)
+- [Ethereum R&D Discord](https://discord.com/invite/qGpsxSA)
+
+# Miscellaneous 
+- [Ethereum All-core Devs meetings](miscellaneous)
