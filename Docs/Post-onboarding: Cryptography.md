@@ -21,6 +21,7 @@ Proof systems are a powerful primitive used for scalability and privacy. On the 
 - [Foundations of probalistic proofs by Alessandro Chiesa](https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2020.html) 
 - [Youtube videos from Alessandro's course](https://www.youtube.com/playlist?list=PLGkwtcB-DfpzST-medFVvrKhinZisfluC)
 - [Everything STARKs!](https://twitter.com/EliBenSasson/status/1578380154476208131?s=20&t=IbMbwSUkuEShS8rXzkSTOA)
+- [Bulletproofs](https://crypto.stanford.edu/bulletproofs/)
 - [Awesome-ZK!](https://github.com/ventali/awesome-zk)
 - [ZK Machine learning](https://github.com/worldcoin/awesome-zkml)
 
