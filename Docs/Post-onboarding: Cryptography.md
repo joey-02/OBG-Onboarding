@@ -2,7 +2,8 @@
 
 ## Introduction
 A collection of literature and courses to get familiar with why cryptography is important and how it works.
-- [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf) 
+- [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
+- [Intro to Cryptography in Ethereum](https://medium.com/immunefi/intro-to-cryptography-and-signatures-in-ethereum-2025b6a4a33d)
 - [New Directions in Cryptography by Diffie & Hellman](https://ee.stanford.edu/~hellman/publications/24.pdf)
 - [Cypherpunks mailing list archive](https://mailing-list-archive.cryptoanarchy.wiki/)
 - [Dan Boneh Online Cryptography Course](https://crypto.stanford.edu/~dabo/courses/OnlineCrypto/) [Coursera Link](https://www.coursera.org/learn/crypto)
@@ -27,6 +28,10 @@ Proof systems are a powerful primitive used for scalability and privacy. On the 
 Multi party computation is a way to distribute cryptographic processes across multiple individuals. This lets you distribute authority across multiple parties and compute results while allowing parties to withold data. MPC is oftentimes used for privacy because it is more flexible than FHE and other schemes, although it is succeptible to collusion risk. Examples include [Penumbra](https://penumbra.zone/). [Lit Protocol](https://litprotocol.com/) uses MPC for access control!
 - [Awesome MPC](https://github.com/rdragos/awesome-mpc)
 - [Distributed Key Generation](https://cronokirby.com/posts/2022/10/dkgs-in-groups/)
+- [TSS Explained](https://academy.binance.com/en/articles/threshold-signatures-explained)
+- [Awesome TSS](https://github.com/ZenGo-X/awesome-tss)
+- [BLS](https://hackmd.io/@benjaminion/bls12-381)
+- [Interactive BLS tool](https://iancoleman.io/blsttc_ui/)
 
 ## FHE
 
@@ -41,3 +46,4 @@ Multi party computation is a way to distribute cryptographic processes across mu
 - [Ingonyama](https://github.com/ingonyama-zk/papers)
 - [Geometry](https://geometryresearch.xyz/notebook)
 - [Delendum](https://delendum.xyz/writing)
+- [The crypto behind crypto](http://ethanfast.com/top-crypto.html)
