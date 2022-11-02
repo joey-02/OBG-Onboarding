@@ -30,9 +30,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
 - Consensus protocol (research, purpose, what Satoshi's breakthrough was, importance of cryptoeconomics)
 - State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
-###### Homework: Run a full node & generate private keys! 
-###### [Bitcoin Instructions](https://bitcoin.org/en/download)
-###### [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these insteructions use geth and pyrsm, both of which are go implementations of the ethereum spec
+###### Homework: Run a full node & generate private keys! [Bitcoin Instructions](https://bitcoin.org/en/download) [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these insteructions use geth and pyrsm, both of which are go implementations of the ethereum spec
 
 # Week4: How to Use a Blockchain
 - Revisiting virtual machines
@@ -41,8 +39,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - How do your keys interact with dapps: RPC nodes, wallets, endpoints, and order flow
 - FOSS software
 - Censorship resistant dapps
-###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap)
-###### Extra: Use the dapps in the [OBG Fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf) and connect metamask to local node!
+###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap) Extra: Use the dapps in the [OBG Fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf) and connect metamask to local node!
 
 # Week5: Social Consensus - Improvement Proposals, Governance, and Contentious Forks
 - Upgrades, rollbacks, and when we want to change the protocol
