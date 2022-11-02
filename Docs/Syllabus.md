@@ -32,7 +32,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
 ###### Homework: Run a full node & generate private keys! [Bitcoin Instructions](https://bitcoin.org/en/download) | [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these instructions use geth and pyrsm, both of which are go implementations of the ethereum spec
 
-# Week4: How to Use a Blockchain
+# Week4: How to Use Dapps
 - Revisiting virtual machines
 - How dapps work: frontend vs backend
 - What is onchain and what is offchain?
