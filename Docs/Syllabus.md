@@ -48,4 +48,4 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Chain ID and forks
 - Replay attacks!
 - Ethereum classic, Bitcoin cash, segwit, etc
-###### Homework: One deliverable relating a non-crypto topic to an idea we covered in class!
+###### Homework: Read and think about [Atoms, Institutions, and Blockchains](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0)
