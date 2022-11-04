@@ -30,7 +30,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
 - Consensus protocol (research, purpose, what Satoshi's breakthrough was, importance of cryptoeconomics)
 - State Machine (consensus orders transactions, changes to state defined by VM, what is a VM?)
-###### Homework: Run a full node & generate private keys! [Bitcoin Instructions](https://bitcoin.org/en/download) | [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these instructions use geth and pyrsm, both of which are go implementations of the ethereum spec
+###### Homework: Read [this](https://bitcoinmagazine.com/culture/bitcoin-independence-day-how-this-watershed-day-defines-community-consensus) and Run a full node & generate private keys! [Bitcoin Instructions](https://bitcoin.org/en/download) | [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these instructions use geth and pyrsm, both of which are go implementations of the ethereum spec
 
 # Week4: How to Use Dapps
 - Revisiting virtual machines
