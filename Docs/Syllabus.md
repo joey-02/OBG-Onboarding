@@ -19,9 +19,9 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Diffie, Hellman, Merkle, and how public cryptography started
 - What were the crypto wars
 - Who were the cypherpunks
-- What was the traffic analysis problem
-- What problems do decentralized systems solve
-- Blockchains are for censorship resistance
+- What was the traffic analysis problem, how did it lead to the need for decentralized systems
+- How do decentralized systems compliment cryptography
+- Blockchains are for censorship resistance!
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
 # [Week3](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week3%20-%20OBG%20onboarding.pptx%20(1).pdf): What is a Blockchain
