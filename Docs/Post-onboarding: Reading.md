@@ -2,7 +2,7 @@
 - [The Cathedral and the Bazaar](https://monoskop.org/images/e/e0/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) (Why FOSS!)
 - [Atoms, Institutions, Blockchains](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0)
 - [Autonomous Worlds](https://0xparc.org/blog/autonomous-worlds)
-- [Interoperability and Market Segmentation](https://medium.com/collab-currency/interoperability-and-market-segmentation-9cd098382414)
+- [Interoperability and Market Segmentation](https://medium.com/collab-currency/interoperability-and-market-segmentation-9cd098382414) by OBG advisor Stephen Mckeon!
 
 # Good Blogs
 - [Vitalik](https://vitalik.ca/)
