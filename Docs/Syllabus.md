@@ -24,7 +24,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Blockchains are for censorship resistance
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
-# Week3: What is a Blockchain
+# [Week3](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week3%20-%20OBG%20onboarding.pptx%20(1).pdf): What is a Blockchain
 - Why do we care how blockchains work
 - What is a blockchain
 - Users (clients, role of full nodes, bitcoin independence day, UASFs)
