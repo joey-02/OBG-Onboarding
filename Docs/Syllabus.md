@@ -16,7 +16,7 @@
 # [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems do Blockchains Solve
 This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 - Why cryptography is important
-- Diffie, Hellman, Merkle, and how public cryptography started
+- Diffie, Hellman, Merkle, and how public sector cryptography started
 - What were the crypto wars
 - Who were the cypherpunks
 - What was the traffic analysis problem, how did it lead to the need for decentralized systems
