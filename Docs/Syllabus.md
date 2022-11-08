@@ -33,7 +33,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Emphasize the importance of running a full node!
 ###### Homework: Read [this](https://bitcoinmagazine.com/culture/bitcoin-independence-day-how-this-watershed-day-defines-community-consensus) and run a full node & generate private keys! [Bitcoin Instructions](https://bitcoin.org/en/download) | [Ethereum Instructions](https://docs.prylabs.network/docs/install/install-with-script) Note: Ethereum requires an execution client and consensus client, these instructions use geth and pyrsm, both of which are go implementations of the ethereum spec. More instructions in the OBG discord!
 
-# Week4: How to Use Dapps
+# [Week4](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week4%20-%20OBG%20onboarding.pptx.pdf): How to Use Dapps
 - Revisiting virtual machines
 - How dapps work: frontend vs backend
 - What is onchain and what is offchain?
