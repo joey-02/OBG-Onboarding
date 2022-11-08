@@ -13,7 +13,7 @@
 - OBG Onboarding overview
 ###### Homework: Setup twitter, discord, and spend 15 minutes scrolling on twitter
 
-# [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems do Blockchains Solve
+# [Week2](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week2%20-%20OBG%20onboarding.pptx.pdf): What Problems were Blockchains Meant to Solve?
 This lecture is based off of [this series](https://pet3rpan.medium.com/history-of-things-before-bitcoin-cryptocurrency-part-one-e199f02ca380)
 - Why cryptography is important
 - Diffie, Hellman, Merkle, and how public sector cryptography started
@@ -24,7 +24,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Blockchains are for censorship resistance!
 ###### Homework: Put 5 things in discord that use cryptography, mess around with [online hashing](https://emn178.github.io/online-tools/sha256.html), watch overview of how [diffie-hellman works](https://www.youtube.com/watch?v=NmM9HA2MQGI&ab_channel=Computerphile)
 
-# [Week3](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week3%20-%20OBG%20onboarding.pptx%20(1).pdf): What is a Blockchain
+# [Week3](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week3%20-%20OBG%20onboarding.pptx%20(1).pdf): What is a Blockchain and How Does it Work?
 - Why do we care how blockchains work
 - What is a blockchain
 - Users: How to access blockchain (protocol spec vs. clients)? Network authorities (block producers vs. full nodes (sampling light nodes coming soon!))? Which nodes have the most power in the network? Bitcoin Indepedence Day and UASFs
@@ -43,7 +43,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - The endgame for dapps and fullnodes
 ###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap) Extra: Use the dapps in the [OBG Fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf) and connect metamask to local node!
 
-# Week5: Social Consensus - Improvement Proposals, Governance, and Contentious Forks
+# Week5: Why Blockchains? Social Consensus - Improvement Proposals, Governance, and Contentious Forks
 - We know blockchains are for censorship resistance but why should we build on one? Censorship resistance only good for nefarious activity? No! Cenorship resistance lets us plan and coordinate for the future better and build [hyperstructures](https://jacob.energy/hyperstructures.html) 
 - Blockchains should be credibly neutral, but what if we want to change it?
 - Upgrades, rollbacks, and when we want to change the protocol
