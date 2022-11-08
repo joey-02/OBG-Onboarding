@@ -44,6 +44,8 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 ###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap) Extra: Use the dapps in the [OBG Fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf) and connect metamask to local node!
 
 # Week5: Social Consensus - Improvement Proposals, Governance, and Contentious Forks
+- We know blockchains are for censorship resistance but why should we build on one? Censorship resistance only good for nefarious activity? No! Cenorship resistance lets us plan for the future and build [hyperstructures](https://jacob.energy/hyperstructures.html) 
+- Blockchains should be credibly neutral, but what if we want to change it?
 - Upgrades, rollbacks, and when we want to change the protocol
 - Improvement proposals, dev work, and how to upgrade
 - Chain ID and forks
