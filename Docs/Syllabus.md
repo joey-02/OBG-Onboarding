@@ -51,4 +51,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - Improvement proposals, dev work, and governance process
 ###### Homework: Read and think about [Atoms, Institutions, and Blockchains](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0)
 
+
+
+
 Much thanks to the open source blockchain community for all of the resources used in this course! 
