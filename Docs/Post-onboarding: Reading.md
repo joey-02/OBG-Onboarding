@@ -15,6 +15,7 @@
 - [Arthur Hayes](https://cryptohayes.medium.com/)
 - [Paradigm](https://www.paradigm.xyz/writing)
 - [Cronokirby](https://cronokirby.com/posts)
+- [DataAlways](https://dataalways.substack.com/)
 
 # Good Forums
 - [OG bitcoin forum](https://bitcointalk.org/)
@@ -24,3 +25,4 @@
 
 # Miscellaneous 
 - [Ethereum All-core Devs meetings](miscellaneous)
+- Messari's Annual Crypto theses: [2022](https://messari.io/pdf/messari-report-crypto-theses-for-2022.pdf), [2021](https://messari.io/pdf/messari-report-crypto-theses-for-2021.pdf), [2020](https://messari.io/pdf/crypto-theses-for-2020.pdf)
