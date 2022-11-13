@@ -48,6 +48,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - We know blockchains are for censorship resistance but why should we build on one? 
 - What guarantees does censorship resistance give us?
 - How do these guarantees let us build [hyperstructures](https://jacob.energy/hyperstructures.html) 
+- What hyperstructures might look like: curve ecosystem, social graphs/apps, autonomous worlds 
 - Upgrades, rollbacks, and when we want to change the protocol
 - Improvement proposals, dev work, and governance process
 ###### Homework: Read and think about [Atoms, Institutions, and Blockchains](https://stark.mirror.xyz/n2UpRqwdf7yjuiPKVICPpGoUNeDhlWxGqjulrlpyYi0)
