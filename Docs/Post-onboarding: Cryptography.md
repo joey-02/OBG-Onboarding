@@ -1,7 +1,7 @@
 # Resources
 
 ## Introduction
-A collection of literature and courses to get familiar with why cryptography is important and how it works.
+Some literature and courses to get familiar with why cryptography is important and how it works.
 - [The Moral Character of Cryptographic Work](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf)
 - [Intro to Cryptography in Ethereum](https://medium.com/immunefi/intro-to-cryptography-and-signatures-in-ethereum-2025b6a4a33d)
 - [New Directions in Cryptography by Diffie & Hellman](https://ee.stanford.edu/~hellman/publications/24.pdf)
@@ -11,8 +11,9 @@ A collection of literature and courses to get familiar with why cryptography is 
 - [Polynomial commitment schemes](https://scroll.io/blog/kzg)
 
 
-## Probalistic Proofs for Verifiable Computation
+## ZK Proofs 
 Proof systems are a powerful primitive used for scalability and privacy. On the protocol level, blockchains uses them for [verifiable off-chain computation](https://starkware.co/) and [data availability commitments](https://www.eip4844.com/). On the application side, proofs are used for [data privacy](https://personaelabs.org/posts/personae/), incomplete information in videogames such as Dark Forest's [fog of war](https://dfwiki.net/wiki/Fog_of_war), and program correctness! 
+- [Anatomy of a STARK](https://aszepieniec.github.io/stark-anatomy/)
 - [Definitive explanation of ZkSnarks](https://arxiv.org/pdf/1906.07221.pdf)
 - [PCP theorem](https://www.cs.utexas.edu/~danama/XRDS.pdf)
 - [Number thoery](https://explained-from-first-principles.com/number-theory/)
