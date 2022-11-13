@@ -24,5 +24,5 @@
 - [Ethereum R&D Discord](https://discord.com/invite/qGpsxSA)
 
 # Miscellaneous 
-- [Ethereum All-core Devs meetings](miscellaneous)
+- [Ethereum All-core Devs meetings](https://github.com/ethereum/pm/)
 - Messari's Annual Crypto theses: [2022](https://messari.io/pdf/messari-report-crypto-theses-for-2022.pdf), [2021](https://messari.io/pdf/messari-report-crypto-theses-for-2021.pdf), [2020](https://messari.io/pdf/crypto-theses-for-2020.pdf)
