@@ -1,7 +1,7 @@
 # Open Projects for OBG Members!
 Here are a list of ambitious open projects for OBG members to work on. 
 
-1. Improve DAO/governance platform (upgrading voting passes, encoding NFTs on-chain, bringing governance platform fully on-chain, custom frontend etc)
+1. Improve [OBG DAO](https://github.com/0xkrabbypatty/OBG-DAO) (upgrading voting passes, encoding NFTs on-chain, bringing governance platform fully on-chain, custom frontend etc)
 2. Create an OBG NFT museum
 3. Start an up-only style podcast with guests from other Universities
 4. Spin up a new fund with a new thesis (eg: not VC style investing, possibly uncorrelated returns or sector specific thesis ie: on-chain gaming) 
