@@ -1,5 +1,8 @@
 We don't really have a lot of devs in OBG so not much guidance we can give here to new members. If anyone has resources/guides please contribute! Below are a couple things I have used myself or heard about.
 
+## Guides
+- [Gakonst's solidity book](https://github.com/gakonst/solidity-book)
+
 ## Development Environments
 - [Hardhat](https://hardhat.org/)
 - [Foundry](https://github.com/foundry-rs/foundry)
