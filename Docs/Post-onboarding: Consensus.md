@@ -1,5 +1,8 @@
 # Resources
 
+# Introduction
+Some literature and courses to get familiar with consensus protocols and distributed systems.
+
 ## Courses
 - [Awesome course for basics](https://decentralizedthoughts.github.io/start-here/)
 - [In depth course](https://ece595uwseattle.github.io/schedule)
@@ -53,3 +56,6 @@ Modular consensus is an emerging paradigm that separates settlement, execution, 
 
 ## Cryptoeconomics
 - [Awesome-cryptoeconomics](https://github.com/jpantunes/awesome-cryptoeconomics)
+
+## Other
+- [The Distributed Computing Manifesto](https://www.allthingsdistributed.com/2022/11/amazon-1998-distributed-computing-manifesto.html)
