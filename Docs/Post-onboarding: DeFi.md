@@ -1,4 +1,7 @@
 # Resources
+# Introduction
+A couple of links to explore the decentralized finance protocol landscape
+
 ## Decentralized Exchanges(DEXs)
 DEXs are non-custodial marketplaces built on blockchains
 - [DEXs](https://github.com/0xperp/awesome-amm)
