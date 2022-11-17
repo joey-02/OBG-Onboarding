@@ -44,7 +44,7 @@ This lecture is based off of [this series](https://pet3rpan.medium.com/history-o
 - The endgame for dapps and fullnodes
 ###### Homework: Make a browser wallet (import private keys from the fullnode from last week!), store keys correctly, and use [uniswap](https://app.uniswap.org/#/swap) Extra: Use the dapps in the [OBG Fund 1.0 portfolio](https://static1.squarespace.com/static/6089ce591463491d46fc001f/t/635051021c561e4224140cd1/1666208004354/Q4+Report.pdf) and connect metamask to local node!
 
-# [Week5](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week5%20-%20OBG%20onboarding.pptx.pdf): Why Blockchains? Social Consensus, Improvement Proposals, Governance, and Contentious Forks
+# [Week5](https://github.com/0xkrabbypatty/OBG-Onboarding/blob/main/Slide%20Decks/Week5%20-%20OBG%20onboarding.pptx%20(1).pdf): Why Blockchains? Social Consensus, Improvement Proposals, Governance, and Contentious Forks
 - We know blockchains are for censorship resistance but why should we build on one? 
 - What guarantees does censorship resistance give us?
 - How do these guarantees let us build [hyperstructures](https://jacob.energy/hyperstructures.html) 
