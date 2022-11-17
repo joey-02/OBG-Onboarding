@@ -1,4 +1,4 @@
-## OBG Onboarding
+## OBG Onboarding Syllabus
 Much thanks to the open source blockchain community for all of the resources used in this course! 
 
 # Objectives
