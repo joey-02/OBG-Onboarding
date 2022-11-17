@@ -12,7 +12,7 @@ Here are a list of ambitious open projects for OBG members to work on.
 9. Create and mint an NFT
 10. Create a token and make a uniswap liquidity pool 
 11. Improve [OBG DAO](https://github.com/0xkrabbypatty/OBG-DAO) (upgrading voting passes, encoding NFTs on-chain, bringing governance platform fully on-chain, custom frontend etc)
-12. Create an OBG NFT museum 
+12. Create an OBG NFT museum using a platform like monaverse
 13. Start an up-only style podcast with guests from other Universities
 14. Create a [dune](https://dune.com/browse/dashboards) dashboard specific for tracking OBG investments 
 15. Spin up a new fund with a new thesis eg: not VC style investing, possibly uncorrelated returns or sector specific thesis ie: on-chain gaming (Ask management about raising funds)
