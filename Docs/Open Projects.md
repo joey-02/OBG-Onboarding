@@ -3,7 +3,7 @@ Here are a list of ambitious open projects for OBG members to work on.
 
 1. Learn how to code and document the process!
 2. Provide liquidity on a [dex](https://uniswap.org/), [moneymarket](https://aave.com/), and [options vault](https://www.ribbon.finance/) 
-3. Look at a controversial BIP or EIP in depth and write an article on it
+3. Look at a controversial [BIP](https://github.com/bitcoin/bips) or [EIP](https://eips.ethereum.org/) in depth and write an article on it
 4. Join a DAO and participate in weekly calls or governance forums
 5. Launch a blockchain by using tendermint, substrate, or Avalanche's subnet CLI
 6. Launch a rollup using slush, rollmint, or another SDK framework
