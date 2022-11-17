@@ -5,7 +5,7 @@ Here are a list of ambitious open projects for OBG members to work on.
 2. Provide liquidity on a dex, moneymarket, and options vault 
 3. Look at a controversial BIP or EIP in depth and write an article on it
 4. Join a DAO and participate in weekly calls or governance forums
-5. Launch a blockchain by using tendermint or substrate
+5. Launch a blockchain by using tendermint, substrate, or Avalanche's subnet CLI
 6. Launch a rollup using slush, rollmint, or another SDK framework
 7. Do an honest analysis of content crypto influencers are putting out ex: Michael Saylor, Jason Lowery, Nic Carter, Jordi Alexander
 8. Publish a gitcoin grant to raise funds for OBG!
