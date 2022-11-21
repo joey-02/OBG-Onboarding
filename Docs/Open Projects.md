@@ -21,5 +21,5 @@ Here are a list of ambitious open projects for OBG members to work on.
 18. Implement a UASF of your choice to fork our node onto its own network (BIP 148 for guidance)
 19. Run a p2p crawler and visualize a blockchain's network graph
 20. Implement cryptographic primitives in a language of your choice (hashing functions, PKI etc)
-21. [Build an EVM from scratch](https://www.notion.so/Building-an-EVM-from-scratch-part-1-the-execution-context-c28ebb4200c94f6fb75948a5feffc686) using the yellow paper
+21. [Build an EVM from scratch](https://www.notion.so/Building-an-EVM-from-scratch-part-1-the-execution-context-c28ebb4200c94f6fb75948a5feffc686) using the yellow paper. (alternative course [here](https://www.evmfromscratch.com/))
 22. Build a stark based [ZKVM](https://aszepieniec.github.io/stark-brainfuck/) from scratch
