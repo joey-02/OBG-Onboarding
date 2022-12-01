@@ -7,7 +7,7 @@ Some literature and courses to get familiar with consensus protocols and distrib
 - [Awesome course for basics](https://decentralizedthoughts.github.io/start-here/)
 - [In depth course](https://ece595uwseattle.github.io/schedule)
 - [Stanford course](https://cs251.stanford.edu/syllabus.html)
-- [Science & Engineering of Consensus Workshop SBC '22](https://www.youtube.com/playlist?list=PL4XSNxeZhdqBBgqqokIdK4PcyPSl6t0rQ)
+- Videos from [Science & Engineering of Consensus Workshop SBC '22](https://www.youtube.com/playlist?list=PL4XSNxeZhdqBBgqqokIdK4PcyPSl6t0rQ)
 
 ## Awesome papers about blockchain consensus
 - [Rethinking largescale consensus](https://eprint.iacr.org/2018/302.pdf)
