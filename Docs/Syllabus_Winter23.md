@@ -14,29 +14,42 @@ Much thanks to the open source blockchain community for all of the resources use
 
 # [Week2]: The Bazaar: Problems with building credibly neutral software platforms
 - What types of censorship, proprietary software, and siloed data do we see/interact with?
+- Explicit censorship but also soft censorship like shadowbans etc... 
+- The characteristics of the bazaar (ie: the commons!)
 - How do we build a software platform that emulates all the characteristics of the Bazaar?
+- Network effects
 - How do we decentralize data ownership?
 - Problems with decentralizing data: Privacy, Scaling, and not building surveillance technology
-###### Homework: ?????
+###### Homework: [This thread](https://twitter.com/musalbas/status/1143629828551270401?s=20&t=4VEMiLBBgyaQ5pIiJzo-qw)
 
 # [Week3]: Blockchain Overview: Nodes, Authorities, Hardconsensus & Softconsensus
+- What is a software protocol (Email, HTTP, TCP/IP)
+- Protocol specification, clients, and core devs
 - What are the different nodes?
 - How do you access the network?
 - Consensus between blockproducers vs consensus between community
 - Separation of powers
 - The state transition function
+- Forks
 - Blockchains are a decentralized protocol for the ordering and inclusion of transactions (must build state off-chain)
 - Comparison to the client-server model & other p2p networks
-###### Homework: ?????
+###### Homework: Dig around in the ethereum protocol repo
 
 # [Week4]: Blockchain Technicals: History of BFT & Chain-based consensus, the scaling problem, how to run a node
-- History of BFT & Chain-based consensus
-- Protocol specification vs. clients
-- The scaling problem & state-bloat
+- History of cryptography
+- History of consensus
+- Different approaches to blockchains: consensus (BFT vs. Chain-based), sybil (PoW vs. PoS), execution (VMs), and data availability (on-chain vs. off-chain)
+- [The scaling problem](https://vitalik.ca/general/2021/05/23/scaling.html) & state-bloat
+- [What you can do on-chain](https://twitter.com/joe314158/status/1610043518558535680?s=20&t=EuO2qS5H6riwj8kY2ZupbQ)
 - How to run a node
 - How does the average person access the network
-###### Homework: 
+###### Homework: Run a node
 
 # [Week5]: Blockchain Applications: Revisiting the Bazaar and the current state of Blockchains
-- N/A
-###### Homework: 
+- How dapps work: frontend vs backend
+- What is on-chain vs. offchain
+- Orderflow + how your keys interact with dapps
+- Upgradeable contracts
+- Revisiting scaling and the economics of why dapps mostly suck (if you aren't a trader)
+- The endgame for dapps and fullnodes
+###### Homework: Download metamask + use uniswap
