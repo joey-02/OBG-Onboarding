@@ -1,0 +1,269 @@
+\documentclass{beamer}
+
+% \usepackage{beamerthemesplit} // Activate for custom appearance
+
+\title{OBG Onboarding Week4 (Final meeting!)}
+\author{Joe}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section[Outline]{}
+\frame{\tableofcontents} {
+\section{Outline for today:}
+\subsection{ - Homework Check}
+\subsection{ - Week3 refresher}
+\subsection{ - Resource pricing}
+\subsection{ - The blockchain scaling problem}
+\subsection{ - Cost of verifying the chain}
+\subsection{ - RPC Nodes and Metamask}
+\subsection{ - If time permits: the Ethereum scaling roadmap}
+}
+
+%Homework Check
+\frame {
+ \frametitle{Homework Check}
+ \begin{block}{Who did the homework}
+How much of the btc whitepaper did you understand? Did you find it interesting? What questions do you have?
+\end{block}
+ }
+ 
+ %Week3 refresher
+\frame {
+ \frametitle{Week2 Refresher}
+ \begin{enumerate}
+ \item<1-> Who remembers what we talked about last week?
+ \item<2 -> Consensus protocols (network communication model)
+ \item<3 -> Cryptography (asymmetric encryption/RSA)
+ \item<4 -> Why we care about these topics, getting close to the metal
+ \item<5 -> Today: moving from theory to practice! Look at some of the engineering problems that are holding blockchains back 
+  \end{enumerate}
+ }
+
+\frame{
+\frametitle{What today is about}
+Today is about protocol development and systems engineering (how to build good protocol clients) \newline
+
+Many topics we are covering today are important for critical infrastructure of the internet \newline
+
+Many parallels between client teams and system engineers at prop desk, big tech, and other branches of software development
+}
+
+%Scaling problem
+\frame{
+\frametitle{The blockchain scaling problem}
+\center{
+$\dfrac{Cost \: of \: Gas}{Cost \: of \: Verifying \: the \: Chain} \: or \:  \dfrac{Cost \: of \: Compute}{Cost \: of \: Running \: a \: Node}$
+	}
+}
+
+%
+\frame{
+\frametitle{Resource pricing}
+Lets look at the first part of the blockchains scaling problem: $Cost \: of \: Gas$ \newline
+
+One of the biggest parts of the Ethereum protocol is the EVM \newline
+
+Emulated CPU that lets us make complex changes to state. Turing complete! \newline
+
+Problem: If someone makes a change to state, every single node has to run that computation which incurs social costs \newline
+
+Solution: Charge a base fee! Part of fee directly pays blockproducers for coming to consensus and other part of fee takes \$Eth out of circulation and gives some value back to full nodes
+}
+
+\frame{
+\frametitle{Resource pricing}
+Every instruction (opcode) to the EVM has a set fee. Opcode price is denominated in Gwei (1 billion of an \$eth). 141 opcodes total! \newline
+ \begin{figure}[h]
+\caption{EVM opcode pricing}
+\centering
+\includegraphics[width=0.8\textwidth]{resource_pricing}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Resource Pricing}
+\center{
+$Transaction \: Fee = \sum{opcodes} + Priority \: Fee$
+}
+\newline
+
+Each Ethereum block has a hard limit of 30 million gas! Not that much considering a standard \$Eth transfer takes 21,000 gas. Blockspace is competitive so transactions can become very expensive
+}
+
+\frame{
+\frametitle{Resource Pricing}
+All we have to do to make cost of gas cheap is to increase block size (increase supply of gas faster than demand) \newline
+
+Problem1: This increases the cost of verifying the chain (running a node) \newline
+
+Problem2: Want there to be some equilibrium between supply and demand of gas to make running a blockproducing node economically incentivized
+}
+
+\frame{
+\frametitle{Cost of Verifying the Chain}
+Many blockchains have cheap transaction fees by simply blowing up gas limit per block (BNB chain has a 140 million gas limit) \newline
+
+Equally important to consider the cost of verifying the chain! This is what Ethereum protocol development focuses on. 
+}
+
+\frame{
+\frametitle{Hashing}
+ \begin{figure}[h]
+\caption{hash function}
+\centering
+\includegraphics[width=0.8\textwidth]{hash_function}
+\end{figure}
+}
+
+\frame{
+\frametitle{Cost of Verifying the Chain}
+Blockchain state is managed in a datastructure known as a Merkle Patricia Trie. A way to efficiently verify everyone has the same state! Simply compare the root hash
+ \begin{figure}[h]
+\caption{hash function}
+\centering
+\includegraphics[width=0.8\textwidth]{merkle_tree}
+\end{figure}
+}
+
+\frame{
+\frametitle{Cost of Verifying the Chain}
+The state trie continues to grow as people join the network and deploy contracts \newline
+
+Executing state transitions becomes increasingly difficult as your computer has to navigate and index a bigger and bigger state trie \newline
+
+Overtime your node needs faster and faster hardware to read and write to the state trie (sometimes referred to as disk I/O) \newline
+
+State bloat is the fundamental bottleneck to running a node! Receiving and storing block data is \emph{easy}, reading and writing state is \emph{hard}
+}
+
+%%
+\frame{
+\frametitle{RPC Nodes}
+Hopefully now you understand the fundamental problem of scaling \newline
+
+Blockchain security relies on people running the protocol themselves, must keep cost of verifying the chain low \newline
+
+Unfortunately, blockchains got pretty popular before we figured out how to drive cost of verifying the chain down \newline
+
+Today we are going to look at why our interim solutions to supporting all these new users is bad
+}
+
+%%RPC Nodes
+\frame{
+\frametitle{RPC Nodes}
+Many people want to access the network but don't want to run a node! It's too complex and too expensive \newline
+
+Solution: Companies like Infura and Alchemy started offering Remote Procedure Call nodes. Act as an intermediary to the network so you don't have to run a node \newline
+
+This is very convenient for new users and developers but also unhealthy for the network! 
+}
+
+
+%Metamask
+\frame{
+\frametitle{Metamask}
+Metamask defaults to Infura RPC nodes \newline
+
+There is an option to connect to local node or other RPC nodes ex: flashbots \newline
+
+Super convenient because it abstracts away all the complexity of interacting with the blockchain! \newline
+
+Problem: Adds a bunch of dependencies that distort the guarantees of a blockchain
+}
+
+\frame{
+\frametitle{Scaling blockchains}
+Q: How can we get the convenience of an RPC node but the security of running a full node ourselves?  \newline
+
+A: Lower the cost of verifying the chain so much that we can run a full node in browser  
+}
+
+\frame{
+\frametitle{Scaling blockchains}
+Is this even possible? \newline
+
+The Merge updated the light client protocol so that this is possible! Many people working on light clients that can run in browser. Ex: Lodestar (typescript), Helios (Rust/Wasm), Nimbus (Nim/JavaScript) \newline
+
+Don't give full security guarantees of a full node!
+}
+
+\frame{
+\frametitle{Scaling Blockchains}
+How do we put a full node in a browser? \newline
+
+Verkle trees: Manage state in a verkle tree instead of a merkle tree, allows for "stateless clients". Only block producers will need to store the state tree, full nodes can access it trustlessly! \newline
+
+Recursive zk proofs of state transitions: Instead of naively re-executing transactions to calculate state, have block producers make a verifiable proof of it. This reduces computational load of full nodes \newline
+
+Problem: Many unanswered questions about how to implement these ideas, but in theory we know that we can offload state from full nodes which would let us get rid of RPC nodes 
+}
+
+\frame{
+\frametitle{Scaling blockchains}
+Scaling issues: \newline
+
+1. Cost of running a full node \newline
+2. Cost of gas/gas limit per block \newline
+3. Instant block finality instead of probabilistic finality without losing benefits of synchrony \newline
+4. Economic sustainability (ex: multidimensional EIP-1550/different fee markets) \newline
+5. Critical infrastructure for building cool Dapps (Mostly happening on application layer)!  \newline
+
+1-3 optimizing different parts of how we use consensus/cryptography! 4 requires input from both protocol and app layer devs. 5 is up to the people building applications on the network, doesn't matter if there are different approaches/systems
+}
+
+\frame{
+\frametitle{Critical Infrastructure for Dapps}
+My thoughts on blockchains: \newline
+
+Not much to do on-chain if you aren't into trading! \newline
+
+Devs are missing many key pieces to move beyond simple token standards. Even if we had dapp frameworks still wouldn't be used because gas is too expensive imo. 
+}
+
+\frame{
+\frametitle{Critical Infrastructure for Dapps}
+Now that merge is behind us, Ethereum can focus on decreasing cost of running a node and increasing block size \newline
+
+At an inflection point where dapp frameworks can be built and used practically \newline
+
+Already seeing this: MUD from Lattice, ECS from Curio, sqlidity from highbyte \newline
+}
+
+\frame{
+\frametitle{Critical Infrastructure for Dapps}
+With cost of compute going down, devs can put more complex data types on-chain. Many different frameworks emerging to handle this data and make them composable with other apps that use the same framework \newline
+
+Developers are starting to separate user data from logic instead of combining the two and dropping down into low level languages to save gas costs \newline
+
+Actually fun and interesting dapps soon!
+}
+
+\frame{
+\frametitle{OBG Onboarding}
+That concludes onboarding for Winter 2023! Topics we covered: \newline
+
+1. Mental model for blockchains: Good platform for bazaar style software development, think of blockchain as a platform for software legos \newline
+
+2. How a blockchain works: protocol vs. client, blockproducer vs. full node, blockchains vs. client/server model \newline
+
+3. Tech behind blockchains: Consensus protocols and communication model, asymmetric cryptography \newline
+
+4. How to scale blockchains: how to scale blockchains across the entire stack
+}
+
+\frame{
+\frametitle{OBG Onboarding}
+Congrats on finishing onboarding! \newline
+
+Keep working on understanding the Ethereum protocol, lots of cool stuff on application layer but most is still happening at the protocol level \newline
+
+Reach out to me if you want to help out w/ onboarding next term \newline
+
+Give me your wallet address so I can give you voting power for our snapshot proposals
+}
+
+\end{document}

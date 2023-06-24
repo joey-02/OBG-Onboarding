@@ -1,0 +1,285 @@
+\documentclass{beamer}
+\usepackage{graphicx}	
+
+% \usepackage{beamerthemesplit} // Activate for custom appearance
+
+\title{OBG Onboarding Week2}
+\author{Joe}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+%table of contents
+\frame{\tableofcontents} {
+\section{Outline for today:}
+\subsection{ - Homework Check}
+\subsection{ - Week1 refresher}
+\subsection{ - Network topology (Global vs. local view)}
+\subsection{ - Understanding the blockchain protocol}
+\subsection{ - The state transition function and when to drop peers}
+\subsection{ - The social layer (non-protocol forks)}
+\subsection{ - Tying it all together}
+}
+
+%Homework Check
+\frame {
+ \frametitle{Homework Check}
+ \begin{block}{Who did the homework}
+What did you learn from it? Did you find it interesting? What questions do you have?
+\end{block}
+\begin{figure}[h]
+\caption{Pet3rpan's twitter profile picture}
+\centering
+\includegraphics[width=0.5\textwidth]{pet3r}
+\end{figure}
+ }
+ 
+ %Week1 refresher
+\frame {
+ \frametitle{Week1 Refresher}
+ \begin{enumerate}
+ \item<1-> Who remembers what we talked about last week?
+ \item<2 -> Cathedral vs. Bazaar style software development
+ \item<3 -> Bazaar style software development requires guarantees that the stuff you build on won't be shut down or changed
+ \item<4 -> Blockchains are perfect for this. Today we are going to look at why!
+  \end{enumerate}
+ }
+ 
+ %Week1 refresher
+ \frame{
+ \frametitle{Week1 Refresher}
+ For collaborative software development to work, we need to overcome the problem of censorship\newline
+ 
+ Think back to the twitter example where they shut down third party apps which discouraged collaboration \newline
+ 
+ Theme for today: What makes blockchains more censorship-resistant than other networks? 
+ }
+ 
+ %What is a blockchain
+  \frame{
+ \frametitle{What is a blockchain?}
+ Colloquial name for the network: "Blockchain" refers to the type of datastructure used to maintain the history of transactions, says nothing about the network\newline
+ 
+ Satoshi's name: "Distributed timestamp server" refers to the idea that multiple people are keeping track of the history of transactions (more accurate imo)\newline
+ 
+ My definition: A protocol that allows for decentralized consensus over the ordering and inclusion of transactions into a database (most accurate imo)\newline
+ 
+ Blockchain: A network of people running clients of the same protocol! $->$ The network is collectively maintaining a timestamped database
+ }
+ 
+ %Network topology
+ \frame{
+ \frametitle{Network topology}
+ \begin{figure}[h]
+\caption{Graph Theory}
+\centering
+\includegraphics[width=0.5\textwidth]{graph}
+\end{figure}
+Default settings: Ethereum nodes 25 peers, Bitcoin nodes 125 peers\newline
+
+How many peers your node has is bounded by what your hardware/internet can handle 
+ }
+ 
+ %Network topology
+ \frame{
+ \frametitle{Visualizing Ethereum}
+ Its very hard to visualize or get accurate numbers on nodes on p2p networks\newline
+ 
+Can make very pretty charts on transaction data! Nodes are wallet addresses, not clients. Edges are proportional to numbers of tokens transferred
+ \begin{figure}[h]
+\caption{\$OMG Txs}
+\centering
+\includegraphics[width=0.8\textwidth]{omg}
+\end{figure}
+ }
+ 
+ %Network topology
+ \frame{
+ \frametitle{Local view of the network}
+ Hopefully that gave you some understanding of where the term nodes came from \newline
+ 
+ Previous slides were visualizations of looking at the network from a top-down "global" perspective\newline
+ 
+ Now we are going to look at what goes on with an individual node 
+ }
+ 
+ %network topology
+ \frame{
+ \frametitle{Local view of the network}
+Every node receives new blocks from its peers. Maintains the list of blocks in a chain.
+ \begin{figure}[h]
+\caption{Blockchain}
+\centering
+\includegraphics[width=0.8\textwidth]{Blockchain}
+\end{figure}
+
+Nodes run the transactions in the order they received them to find the state of the most recent block\newline
+
+Ex: Alice creates a bitcoin account in block1, Bob sends Alice a bitcoin in block2, Alice's state at block3 is 1 bitcoin\newline
+
+Decisions on what transactions are included to the blockchain are made globally, state is calculated locally. In the future, state will be calculated globally through zk proofs! 
+ }
+ 
+ %network nodes
+ \frame{
+ \frametitle{The different type of blockchain nodes}
+ There are multiple types of blockchain nodes but only two have power over the network\newline
+ 
+ The blockproducers (miners in PoW, validators in PoS) act as the "servers" of the network and make updates to the network. These types of nodes cost a lot to operate but are also paid with transaction fees and newly issued currency.\newline
+ 
+ Fullnodes are what the average person would run on their computer. Not paid but are the only way to access the network without using someone else's full node. Going to look at why relying on someone else's full node defeats the purpose of a blockchain in week4!
+ }
+ 
+ %Network topology
+ \frame{
+ \frametitle{What about latency and network partitions?}
+ \begin{figure}[h]
+\caption{Network Partition}
+\centering
+\includegraphics[width=0.5\textwidth]{7c0}
+\end{figure}
+
+Due to latency or delays in network communication, nodes might receive blocks at different times. Each protocol has a way of handling this although the "longest chain rule" is most popular (in PoW the chain with the most blocks and in PoS the chain with the most weight)\newline
+
+Important point is that blockchains need to be able to handle asynchrony in the network!
+ }
+ 
+ %Blockchain protocol
+ \frame{
+\frametitle{The blockchain protocol}
+\begin{block}{What are the different parts of the protocol?}
+P2P networking layer, fork choice rule, issuance/reward schedule for those running the network, many other things!
+\end{block}
+\begin{block}{Where can I see the protocol? }
+When a blockchain is first made the protocol is typically outlined in a whitepaper. Sometimes they make a yellowpaper that updates the whitepaper with changes, othertimes they stop maintaining a paper altogether. Most people usually reference an individual client as the official protocol. \newline
+
+In ethereum, people typically reference the go implementation of the protocol (geth)\newline
+
+If one client makes a change to their protocol and the other clients do not, the network will split. Ethereum has a very specific governance process for making changes so all client teams come to consensus on changes to the protocol.
+\end{block}
+ }
+ 
+ %The state transition function and when to drop peers
+ \frame{
+ \frametitle{How do blockchains prevent censorship?}
+ Now that we know what a blockchain is, we can look at what makes it what makes it different from other networks. \newline
+ 
+ This comes down to the state transition function and whether the majority of people are running full nodes.
+ }
+
+ %The state transition function and when to drop peers
+ \frame{
+ \frametitle{State transition function}
+ \begin{figure}[h]
+\caption{State Transition Function}
+\centering
+\includegraphics[width=0.5\textwidth]{stf}
+\end{figure}
+ } 
+ 
+  %The state transition function and when to drop peers
+ \frame{
+  \frametitle{State transition function}
+The state transition function makes sure that block producers are following the protocol correctly!\newline
+
+This prevents block producers from publishing whatever update they want. This is VERY IMPORTANT because it is what makes blockchains different from other networks\newline
+
+This is the basis for why nothing in the collective database can be changed without the consent of the entire community! Power dynamic between the users and operators of the network is symmetric.\newline
+
+If there are more fullnodes than blockproducers, the power over the network actually belongs to the fullnodes
+ } 
+ 
+   %The state transition function and when to drop peers
+ \frame{
+  \frametitle{State transition function}
+ \begin{figure}[h]
+\caption{Traditional Client/Server model}
+\centering
+\includegraphics[width=0.5\textwidth]{database_diagram}
+\end{figure}
+
+ \begin{figure}[h]
+\caption{Blockchain}
+\centering
+\includegraphics[width=0.5\textwidth]{blockchain_diagram}
+\end{figure}
+
+In traditional database model, clients trust the database is operated correctly. In blockchains, clients verify that the database operators are following the agreed upon protocol
+ } 
+ 
+ %Full node majority
+ \frame{
+ \frametitle{Full node majority}
+ Blockchains gives everyone the same power over the network even if they do not have the hardware requirements to be a database operator\newline
+ 
+ This security model only works if there are more full nodes than block producers. Without full nodes to keep them in check block producers might be tempted to cheat the protocol! \newline
+ 
+ Ex: everyone accesses the blockchain through a remote connection to a block producing node. Since they aren't running a node themselves, no way to check that the block producing node is following the protocol!  
+ }
+ 
+ \frame{
+ \frametitle{When to drop a peer}
+ Rules for when to drop a peer from the network are typically not in-protocol, behavior is decided by client developers\newline
+ 
+For bitcoin (only 1 client), Bitcoin Core client keeps track of a "ban score" module which keeps track of peer behavior. An invalid block or transaction automatically drops the peer for 24 hours.\newline
+
+For ethereum each client handles it differently. Geth will disconnect peers if it receives invalid responses but can always reconnect (has no memory of past behavior)\newline
+
+As long as your node can connect to a single honest peer it will be connected to the network
+ }
+ 
+ \frame{
+ \frametitle{Full node majority}
+ If you are not verifying the chain or that the protocol has been followed correctly, you lose the security model that makes blockchains different from other networks \newline
+ 
+Not problematic if only a handful are doing this, but big problem if everyone is\newline
+
+Turns out that if the full nodes make up the network majority, they can collectively force block producers to change to whatever protocol they want
+} 
+
+\frame{
+\frametitle{social forks}
+A social fork is when the community wants to make an out-of-protocol change to the network\newline
+
+Can happen if they want to upgrade the protocol ie: "the merge"\newline
+
+Can also happen if they want to make a change to the state of the network if something bad has happened. ie: Ethereum vs. Ethereum Classic\newline
+
+Requires someone rewriting the client and then getting everyone else to upgrade to the new version. If this does not happen the network splits based on the portion that upgrade! Even though it may be a small change, the market can price these two networks very differently
+}
+
+\frame{
+ \begin{figure}[h]
+\caption{Blockchain}
+\centering
+\includegraphics[width=0.8\textwidth]{bitcoins}
+\end{figure}
+
+}
+
+\frame{
+\frametitle{Field trip time!}
+Lets go look at the OBG nodes in the entrepreneurship center down the hall!\newline
+
+We operate a bitcoin full node and ethereum full node, bobby runs a cosmos block producer node (validator) at his home\newline
+
+Besides being fun, it's a good way to support the security of the network and also lets us do some cool projects ie: bitcoin ordinal nfts 
+}
+
+ \frame{
+ \frametitle{The cost of running a node}
+ Running a node is expensive!\newline
+ 
+ Next week going to look at research and theories that makes blockchains possible. Will help us understand why running a node is so hard\newline
+ 
+ Homework: Read Bitcoin Independence Day, real world situation that proved that the blockchain security model works (will link in telegram) \neweline
+ 
+ }
+ 
+ 
+
+\end{document}
+
+ 

@@ -1,0 +1,380 @@
+\documentclass{beamer}
+\usepackage{graphicx}	
+
+% \usepackage{beamerthemesplit} // Activate for custom appearance
+
+\title{OBG Onboarding Week3}
+\author{Joe}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{\tableofcontents} {
+\section{Outline for today:}
+\subsection{ - Homework Check}
+\subsection{ - Week2 refresher}
+\subsection{ - Why we care about consensus and cryptography}
+\subsection{ - Consensus Overview: Theorems and Models}
+\subsection{ - Revisiting the Bitcoin protocol}
+\subsection{ - Cryptography Overview}
+\subsection{ - Putting it all together}
+}
+
+%Homework Check
+\frame {
+ \frametitle{Homework Check}
+ \begin{block}{Who did the homework}
+What did you learn from BTC independence day? Did you find it interesting? What questions do you have?
+\end{block}
+ }
+
+%Week2 refresher
+\frame {
+ \frametitle{Week2 Refresher}
+ \begin{enumerate}
+ \item<1-> Who remembers what we talked about last week? n
+ \item<2 -> Global view of network vs. local view
+ \item<3 -> Why the state transition function makes blockchains different
+ \item<4 -> Social/out of protocol forks
+ \item<5 -> Stayed fairly high-level, today going to get into the nitty gritty of how different parts of the protocol work!
+  \end{enumerate}
+ }
+
+
+\frame{
+\frametitle{What today is about}
+Today is about \emph{getting close to the metal}\newline
+
+Todays topics are about showing the type of research I want you guys to do in OBG! We are getting as close to the metal of blockchains as we can w/o getting into pure math. You should try to stay at this level during your time in OBG b/c it's where you will learn the most!
+}
+
+ %Why do we care
+  \frame{
+ \frametitle{Why do we care about consensus and cryptography?}
+Consensus: a process in computer science used to achieve agreement on a single data value among distributed processes or systems. These algorithms are designed to achieve reliability in a network involving multiple users or nodes\newline
+
+Cryptography: the study of secure communications techniques that allow only the sender and intended recipient of a message to view its contents.\newline
+
+These are the most basic ingredients of a blockchain!\newline
+
+Consensus $\longrightarrow$ the "engine" of blockchains (how block producers agree on the next block)\newline
+Cryptography $\longrightarrow$ the "oil" of blockchains, helps everything work smoothly! 
+ }
+
+%Why do we care
+\frame{
+\frametitle{Why do we care about consensus and cryptography?}
+The upper bounds of what we can do with any technology is determined by how well our understanding of the fundamental principles is \newline
+
+Same reason that physics breakthroughs push the envelope for what modern technology and other sciences can do \newline
+
+Consensus and cryptography have the same fundamental value to blockchains as physics does to the real world!
+}
+
+%Why do we care 
+\frame{
+\frametitle{Why do we care about consensus and cryptography?}
+Today is about teaching you the first principles of blockchains! \newline
+
+Disclaimer: Modern protocols are \emph{much} more complicated than the topics we are covering. Today is meant to give a basic understanding so you can continue the research if you want. \newline
+
+Today is about showing you big concepts from the type of research I want you guys to do while you are in OBG! Can find thousands of papers about these topics on arxiv and eprint.iacr
+}
+
+%Consensus overview
+\frame{
+\frametitle{Consensus overview}
+ \begin{figure}[h]
+\caption{Leslie Lamport}
+\centering
+\includegraphics[width=0.5\textwidth]{Leslie}
+\end{figure}
+}
+
+%Consensus Overview
+\frame{
+\frametitle{Consensus Overview}
+Lamport et. al wrote a paper titled \emph{The Byzantine Generals Problem} in 1982 \newline
+
+Used an allegory of military generals from the Byzantine empire attempting to coordinate an attack on a city\newline
+
+The catch is that one of the generals is a traitor! Generals only succeed if they can get all the honest generals to attack or retreat together. Generals fail if the traitor can convince them to split up between attacking or retreating
+}
+
+%big concepts
+\frame{
+\frametitle{Consensus Overview: big concepts}
+Byzantine failure: When a computer node has an arbitrary failure, can be a simple computer malfunction or a malicious attack on the network \newline
+
+Byzantine fault tolerant protocol: A protocol that lets nodes come to agreement despite the existence of byzantine failures. 
+}
+
+%communication model
+\frame{
+\frametitle{Consensus Overview: The communication model}
+Consensus protocols must make an assumption about communication between nodes during consensus rounds: \newline
+
+$\rightarrow$ Synchrony: Nodes have perfect information about other nodes by time $\Delta$ (bitcoin) \newline
+
+$\rightarrow$ Asynchrony: $\Delta$ does not exist, consensus round doesn't end until nodes have responses from all other nodes (no blockchain uses this model) \newline
+
+$\rightarrow$ Partial-synchrony: If a node does not respond by time $\Delta$, other nodes assume that the node is malicious (Solana, tendermint chains) \newline
+
+For blockchains $\Delta$ is the time in-between blocks. 
+}
+
+%communication model
+\frame{
+\frametitle{Why does the type of communication model matter?}
+The communication model determines how much power an adversary has! To disrupt consensus, need to cause disagreement between the honest nodes \newline
+
+Adversary can't fake messages, but can delay them by DDoSing honest nodes. The proportion of nodes an adversary needs to delay messages for to disrupt consensus depends on the communication model.
+}
+
+%Synchrony
+\frame{
+\frametitle{Synchrony}
+Synchrony: Nodes have perfect information about other nodes by time $\Delta$ \newline
+
+Agreement requires greater than 50\% honest nodes (2f + 1)\newline
+
+All consensus protocols must assume honest majority to work. Because of the perfect information assumption, synchronous protocols can tolerate up to 49.999\% faults
+}
+
+%problems with synchrony
+\frame{
+\frametitle{Problems with synchrony}
+$\Delta$ must be very large because nodes are distributed around the world (bitcoin block time is 10 minutes) \newline
+
+If honest nodes do not have perfect information about other honest nodes by $\Delta$, synchrony assumption is violated and the 51\% honest assumption fails. \newline
+
+Synchronous protocols have bad notions about finality as there is no way to tell if nodes are communicating synchronously. In the real world, must program ways to recover from situations where nodes were not behaving synchronously.  
+}
+
+%Partial synchrony
+\frame{
+\frametitle{Partial synchrony}
+Partial synchrony: If a node does not respond by time $\Delta$, other nodes assume that the node is byzantine \newline
+
+Agreement requires greater than 66\% honest nodes (3f + 1) \newline
+
+1/3 dishonest can cause disagreement by delaying 1/2 honest messages until $\Delta$, and then conflicting with the remaining 1/2 honest. \newline
+
+This doesn't work in synchronous protocols because they assume all messages from honest nodes have been delivered by $\Delta$
+}
+
+\frame{
+\frametitle{Communication models}
+What are the trade-offs?\newline
+- Synchrony: Can tolerate 1/2 faults, bad notions about finality. Standard for people to wait multiple bitcoin blocks before they believe their tx is safe, this is because of the synchrony assumption \newline
+
+- Partial synchrony: Can only tolerate 1/3 faults, good notions about finality \newline
+
+This finality tradeoff has many second order effects!
+}
+
+\frame{
+\frametitle{CAP Theorem}
+Theorem: a belief from theoretical computer science that distributed systems can only provide two of the three: consistency (finality), availability, or network partition \newline
+
+Blockchains are built for resiliency, must assume that a network partition will happen at some point! \newline
+
+Synchronous protocols: Probabalistic finality but this lets them optimize for availability! Nodes are allowed to join in and drop out of consensus in between rounds because of the assumption that a no vote is not malicious. This allows proof-of-work to exist! These protocols are known as longest-chain protocols. \newline
+
+Partially synchronous protocols: "stricter" assumptions about communication which allows instant finality. Even if some nodes do not cast votes, as long as 2/3 honest come to agreement a block can not be reverted even if communication is not synchronous. These protocols are known as BFT protocols. 
+}
+
+\frame{
+\frametitle{CAP Theorem}
+Recall: synchronous protocols can't determine if network is in synchrony (no vote = no vote). Under network partition, network needs a way to resolve which side of the network is "correct". Partially synchronous protocols simply stop making progress if 66\% agreement is not reached
+
+ \begin{figure}[h]
+\caption{Network partition}
+\centering
+\includegraphics[width=0.8\textwidth]{partition}
+\end{figure}
+}
+
+\frame{
+\frametitle{Communication model visualized}
+ \begin{figure}[h]
+\caption{Blockchain progress}
+\centering
+\includegraphics[width=1\textwidth]{progress}
+\end{figure}
+}
+
+\frame{
+\frametitle{Nakamoto Consensus}
+
+Nakamoto's longest chain protocol took advantage of how synchrony allows for availability under network partitions. Key breakthrough was that voting does not happen via a quorum! Quorum requires $O(n^2)$ communication complexity which doesn't scale well. \newline
+
+Rather, voting happens by spending computing power (proof-of-work). Synchrony naturally allows for forks of the network, this lets nodes cast votes by allocating their computing power to the fork they support! This style of voting is only possible because of the synchrony assumption. \newline
+
+The reason you wait multiple btc blocks for tx confirmation is to increase probability your block was mined under synchrony \newline
+
+Bitcoin's consensus protocol is grounded in the 30+ years of academic work before!
+}
+
+\frame{
+\frametitle{Consensus Overview}
+That rounds out what we are covering for consensus \newline
+
+The communication model is one of the most important elements of a consensus protocol, hopefully gave you intuition of where the 51\% fault tolerance and reason you have to wait k-deep blocks for tx confirmation comes from \newline
+
+People will often incorrectly say that PoW causes 51\% fault tolerance and PoS causes 33\%. This comes from the fact that PoW is only used in synchrony settings while PoS in typically used in partially synchronous settings. Now you know why this claim is false!
+
+For more advanced topics and people looking to understand protocols in depth I can send more resources!
+
+}
+
+\frame{
+\frametitle{Consensus is lucrative!}
+ \begin{figure}[h]
+\caption{Avalanche Node}
+\centering
+\includegraphics[width=1\textwidth]{avalanche_go}
+\end{figure}
+}
+
+\frame{
+\frametitle{Cryptography overview}
+ \begin{figure}[h]
+\caption{Diffie \& Hellman 1976}
+\centering
+\includegraphics[width=.5\textwidth]{diffie-hellman}
+\end{figure}
+}
+
+\frame{
+\frametitle{Types of cryptography}
+Symmetric cryptography: What you traditionally think of, used to hide info from eavesdroppers and requires shared key between two parties. Practice of symmetric crypto dates back to ancient egyptians! \newline
+
+Asymmetric cryptography (PKI): Inspired by diffie \& hellman in 1976. Requires a public key and private key, can be used to authenticate messages online via digital signatures! \newline
+
+Variations of symmetric and asymmetric crypto: lattice, PQC, RLWE, Isogeny based crypto (different hardness assumptions) \newline
+
+Others: hash functions, FHE, quantum crypto (uses photons instead of bits, technically a variation of the hardness assumption), zero knowledge, etc
+}
+
+\frame{
+\frametitle{Why we care about asymmetric crypto}
+If you can authenticate messages via digital signatures can create "accounts" for the internet! \newline
+
+Traditionally: used to authenticate email messages, VPNs, etc \newline
+
+For blockchains: lets us create accounts on a blockchain and custody our own cryptocurrencies! Basis for why we don't have to "trust" blockchains in the same way we have to trust traditional client/server models. We can manage our own passwords (private key) and accounts!
+}
+
+\frame{
+\frametitle{Today's agenda}
+Look at how asymmetric crypto works \newline
+
+If time permits, explain intuition behind ZK proofs (new type of crypto that started a 100 billion dollar industry)! \newline
+
+ \begin{figure}[h]
+\caption{}
+\centering
+\includegraphics[width=.5\textwidth]{imitation_game}
+\end{figure}
+}
+
+\frame{
+\frametitle{Computational complexity theory}
+All of cryptography (esp. asymmetric crypto) depends on a "hardness assumption" \newline
+
+Q: Can we create a mathematical problem that is extremely inefficient to brute force solutions, yet efficient to verify? (P = NP, sometimes known as a trapdoor one-way function)\newline
+
+This question created an entire subfield of math/computer science called computational complexity theory. Many of the smartest mathematicians work in this field! \newline
+
+Today we are going to look at the \emph{integer factorization} hardness assumption. It is the backbone for the (relatively) simple RSA asymmetric encryption scheme. Most blockchains use ECDSA which is based on the elliptic curve discrete logarithm problem which is much too complicated to cover today.
+}
+
+\frame{
+\frametitle{The integer factorization problem}
+Remember we want two things: 1) A private key only known to us, that we can use as our password to our blockchain account and sign messages with 2) A public key which others can use to verify our signed messages that reveals nothing about the private key\newline
+
+Diffie and Hellman did not come up with the integer factorization problem (they created a key exchange used in symmetric crypto), but did a lot of the heavy lifting that the problem and RSA is based on
+}
+
+\frame{
+\frametitle{The integer factorization problem}
+It is very hard to break down the product of two prime numbers back into the original prime numbers if all you have is the product! \newline
+
+Many unique solutions to this problem and brute forcing every combination is a task that is exponentially hard as prime numbers get bigger.  
+}
+
+\frame{
+\frametitle{RSA}
+ \begin{enumerate}
+ \item<1-> randomly generate two distinct prime numbers \emph{p} and \emph{q}
+ \item<2 -> take the product of \emph{p} and \emph{q}; this is known as \emph{n} or \emph{modulus}
+ \item<3 -> compute the euler function: $\varphi(n) = (p-1) * (q-1)$
+ \item<4 -> choose \emph{e} such that $1<e<\varphi(n)$ and $e$ and $\varphi(n)$ are coprime
+ \item<5 -> Solve for d such that $(d * e)  \%$  $\varphi(n) = 1$
+ \item<6 -> public key is (e, n)
+ \item<7 -> private key is (d, n)
+ \item<8 -> signing a message \emph{m}: $S = m^d \% n$
+ \item<9 -> verifying signed message \emph{S}: $m = S^e \% n$
+ \item<10 -> if the signed message to the exponent of e mod n does not result in the original message, the public key does not match the private key and thus the signature is invalid
+ \end{enumerate}
+}
+
+\frame{
+\frametitle{RSA continued}
+Demo above showed how to sign messages using a private key and verify a signature using a corresponding public key \newline
+
+Can also use RSA to send someone a message only they can see by encrypting with their public key. This uses a different equation \newline
+
+Some problems: need a way to turn messages into numbers as RSA only works on integers. Typically done by mapping letters to numbers or using hash functions
+}
+
+\frame{
+\frametitle{Asymmetric crypto}
+If you have ever generated a private key on a blockchain node or exported your key from metamask you will notice it is a number not a pair of numbers \newline
+
+This is because they use ECDSA where a private key is just 1 number instead of two numbers. Concepts are the same
+}
+
+\frame{
+\frametitle{Asymmetric crypto}
+Hopefully this background gave you an understanding of how we are able to create accounts on a blockchain and custody our own cryptocurrencies without relying on a trusted server to manage our passwords/accounts \newline
+
+Important: This stuff is used all over the internet! Not blockchain specific so it's worth learning the basics of
+}
+
+
+\frame{
+\frametitle{If time permits}
+ZK proof \newline
+
+1. Minimum number of points to find a polynomial \newline
+2. Can encode unlimited information in a polynomial using lagrange interpolation \newline
+3. If you can find a way to turn an execution trace into a polynomial, very easy to prove that computation was done without naively re-executing it \newline
+4. This is a way to outsource computation to a third party and verify it was done correctly \newline
+5. Being used to scale blockchains, make sure that machine learning models are behaving and being trained correctly, also has applications for privacy and proving knowledge of something without revealing what it is you know
+}
+
+\frame{
+\frametitle{ZK proofs for node syncing}
+- We can add and subtract polynomials very easily! \newline
+- This lets us do \emph{recursion}: a way to prove a proof within another proof \newline
+- Imagine if we could find a way to turn transaction execution of each block (state transition function + update to current state) into a polynomial \newline
+- Have the previous polynomials recursively proved within the previous one \newline
+- Syncing to the current state of the blockchain from the genesis block could happen in seconds and require very little computational power! \newline
+- Still need to have the transaction data available in the block but the execution is \emph{much} more efficient
+}
+
+\frame{
+\frametitle{Homework}
+Thanks for listening! Apply to management! This is the first time I've taught onboarding on these topics so you guys are some of the most well educated in the club  \newline
+
+Homework: read the bitcoin whitepaper and the papers it cites (will link in telegram)
+}
+
+\end{document}
+
+
+
